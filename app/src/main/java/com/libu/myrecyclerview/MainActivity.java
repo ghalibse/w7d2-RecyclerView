@@ -7,6 +7,9 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+
+//web site for this
+// https://guides.codepath.com/android/using-the-recyclerview#overview
 public class MainActivity extends AppCompatActivity {
 
     ArrayList<Contact> contacts;
@@ -43,5 +46,12 @@ public class MainActivity extends AppCompatActivity {
 // curSize should represent the first element that got added
 // newItems.size() represents the itemCount
         adapter.notifyItemRangeInserted(curSize, newItems.size());
+
+        adapter.notifyItemInserted(contacts.size() - 1);  // contacts.size() - 1 is the last element position
+        rvContacts.scrollToPosition(adapter.getItemCount() - 1); // update based on adapter
+
+        RecyclerView.ItemDecoration itemDecoration = new
+                DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST);
+        rvContacts.addItemDecoration(itemDecoration);
     }
 }
