@@ -1,4 +1,4 @@
-package com.libu.myrecyclerview;
+package com.libu.myrecyclerview.model;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.libu.myrecyclerview;
+package com.libu.myrecyclerview.decorators;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

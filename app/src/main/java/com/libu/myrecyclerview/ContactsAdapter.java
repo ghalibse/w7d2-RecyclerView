@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.libu.myrecyclerview.features.ContactDiffCallback;
+import com.libu.myrecyclerview.model.Contact;
+
 import java.util.List;
 
 /**

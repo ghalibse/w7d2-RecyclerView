@@ -1,6 +1,8 @@
-package com.libu.myrecyclerview;
+package com.libu.myrecyclerview.features;
 
 import android.support.v7.util.DiffUtil;
+
+import com.libu.myrecyclerview.model.Contact;
 
 import java.util.List;
 

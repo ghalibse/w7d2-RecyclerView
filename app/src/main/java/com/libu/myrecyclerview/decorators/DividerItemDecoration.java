@@ -1,4 +1,4 @@
-package com.libu.myrecyclerview;
+package com.libu.myrecyclerview.decorators;
 
 import android.content.Context;
 import android.content.res.TypedArray;

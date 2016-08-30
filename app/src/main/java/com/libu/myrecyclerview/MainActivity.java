@@ -5,6 +5,10 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.libu.myrecyclerview.decorators.DividerItemDecoration;
+import com.libu.myrecyclerview.decorators.SpacesItemDecoration;
+import com.libu.myrecyclerview.model.Contact;
+
 import java.util.ArrayList;
 
 
