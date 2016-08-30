@@ -53,5 +53,8 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.ItemDecoration itemDecoration = new
                 DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST);
         rvContacts.addItemDecoration(itemDecoration);
+
+        SpacesItemDecoration decoration = new SpacesItemDecoration(16);
+        rvContacts.addItemDecoration(decoration);
     }
 }
